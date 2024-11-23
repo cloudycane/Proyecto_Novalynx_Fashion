@@ -1,0 +1,105 @@
+﻿@using NovalynxFashion.Core.Entidades
+@using NovalynxFashion.Core.Enums
+
+@model ProductosEnProduccionModel
+@{
+    var productosSuministradores = ViewBag.ProductosSuministradores as List<ProductoSuministradorModel>;
+}
+
+<h2>Crear Nueva Producción</h2>
+
+<form asp-action="Crear" method="post" enctype="multipart/form-data">
+
+    <div class="col-lg-3">
+        <label>Subir Imagen</label>
+        <center>
+            <img class="img-square" id="preview" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Imagen previa" width="70" height="70">
+        </center>
+        <input type="file" name="imagen" id="imagen" accept="image/jpeg,image/png" />
+    </div>
+
+    <div class="col-lg-4">
+        <label asp-for="NombreProducto"></label>
+        <input asp-for="NombreProducto" class="form-control" />
+        <span asp-validation-for="NombreProducto" class="text-danger"></span>
+    </div>
+
+    <div class="col-lg-4">
+        <label>Seleccionar Ingredientes</label>
+        <select asp-for="Ingredientes" class="form-control" multiple name="ingredientesIds">
+            @foreach (var producto in productosSuministradores)
+            {
+                <option value="@producto.Id">@producto.NombreProducto</option>
+            }
+        </select>
+    </div>
+
+        <div class="col-lg-2" style="margin: 1%">
+            <label>Moneda</label>
+            <select asp-for="MonedaPreferida" asp-items="Html.GetEnumSelectList<MonedaPreferenciaEnum>()"></select>
+        </div>
+        <div class="col-lg-2" style="margin: 1%">
+            <label>Coste</label>
+            <input asp-for="Coste" type="number"/>
+        </div>
+       
+  
+
+    <div class="col-lg-4">
+        <label>Cantidad</label>
+        <input asp-for="Cantidad" class="form-control" type="number"/>
+    </div>
+
+    <div class="col-lg-4">
+        <label>Tipo de Producto</label>
+        <select id="selectTipoDeProducto" asp-items="Html.GetEnumSelectList<TipoDeProductoEnVentasEnum>()" asp-for="TipoDeProductoEnVentas" class="form-control">
+           
+        </select>
+    </div>
+
+    <div class="col-lg-4">
+        <label>Subtipo</label>
+        <select asp-for="SubtipoRopa" class="form-control" asp-items="Html.GetEnumSelectList<SubtipoRopaEnum>()">
+        </select>
+    </div>
+
+    <div class="col-lg-4">
+        <label>Sexo</label>
+        <select asp-for="Sexo" asp-items="Html.GetEnumSelectList<GeneroEnum>()" class="form-control">
+            
+        </select>
+    </div>
+
+    <div class="col-lg-4">
+        <label>Talla</label>
+        <select asp-for="Talla" class="form-control" asp-items="Html.GetEnumSelectList<TallaEnum>()">
+          
+        </select>
+    </div>
+
+    <div class="col-lg-4">
+        <label>Personas</label>
+        <select asp-for="PersonasEnum" class="form-control" asp-items="Html.GetEnumSelectList<PersonasEnum>()">
+        </select>
+    </div>
+
+    <div class="col-lg-4">
+        <label>Descripción</label>
+        <input class="form-control" type="text" />
+    </div>
+    <button type="submit" class="btn btn-primary" style="margin-top: 2%; float: right;">Crear</button>
+</form>
+
+@{
+
+    <script src="~/js/previsualizarImagen.js" type="text/javascript"></script>
+    <script>
+        document.getElementById('imagen').addEventListener('change', function (event) {
+                    const [file] = event.target.files;
+                    if (file) {
+                        document.getElementById('preview').src = URL.createObjectURL(file);
+                    }
+                });
+    </script>
+
+}

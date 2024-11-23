@@ -1,0 +1,78 @@
+﻿@using NovalynxFashion.Core.Enums
+@using NovalynxFashion.UI.ViewModels
+@using Microsoft.AspNetCore.Identity
+@using NovalynxFashion.Core.Entidades.IdentityEntities
+@model ListadoProductosEnVentaViewModel
+
+@inject UserManager<ApplicationUser> userManager;
+@inject IHttpContextAccessor _context;
+@{
+	var user = await userManager.GetUserAsync(_context.HttpContext.User);
+}
+
+<div class="container">
+	<h1>Ropa de Verano (Precio Mayor A Menor)</h1>
+
+
+	<div style="margin-bottom: 5%;">
+		<div class="col-lg-2">
+			<a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="Index" class="btn btn-info">Volver a Cátalogo</a>
+		</div>
+
+		<div class="col-lg-2">
+			<a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorRopaVerano" class="btn btn-info">Quitar Filtros</a>
+		</div>
+
+		<div class="col-lg-2">
+			<a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorRopaVeranoAlfabeticamenteCreciente" class="btn btn-info">Ordenar Ascendente</a>
+		</div>
+		<div class="col-lg-2">
+			<a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorRopaVeranoAlfabeticamenteDescendente" class="btn btn-info">Ordenar Descendente</a>
+		</div>
+		<div class="col-lg-2">
+			<a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorRopaVeranoPrecioMayorAMenor" class="btn btn-info active">Precio Mayor A Menor</a>
+		</div>
+		<div class="col-lg-2">
+			<a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorRopaVeranoPrecioMenorAMayor" class="btn btn-info">Precio Menor A Mayor</a>
+		</div>
+	</div>
+
+	@foreach (var ropaVerano in Model.ListadoProductosParaLaVenta.Where(p => p.ProductosTerminados.TipoDeProductoEnVentas == TipoDeProductoEnVentasEnum.RopaDeVerano).OrderByDescending(p => p.ProductosTerminados.Coste))
+	{
+		<div class="col-lg-4 card">
+			<h4><span class="label label-primary">@ropaVerano.ProductosTerminados.NombreProducto</span></h4>
+			<center>
+				@if (!string.IsNullOrEmpty(ropaVerano.ProductosTerminados.ImagePath))
+				{
+					<img src="@Url.Content($"~/{ropaVerano.ProductosTerminados.ImagePath}")" alt="Logo" width="100" height="100" class="img-square" />
+				}
+				else
+				{
+					<img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Default Logo" width="100" height="100" class="img-square" />
+				}
+			</center>
+			<ul>
+				<li><h5 class="label label-success">Precio: @ropaVerano.ProductosTerminados.MonedaPreferida @ropaVerano.ProductosTerminados.Coste</h5></li>
+				<li><h5>Cantidad: @ropaVerano.ProductosTerminados.Cantidad </h5></li>
+				<li><h5>Descripción: @ropaVerano.ProductosTerminados.Descripcion</h5></li>
+				<li><h5>Para: @ropaVerano.ProductosTerminados.Sexo</h5></li>
+				<li><h5>Edades: @ropaVerano.ProductosTerminados.PersonasEnum</h5></li>
+				<li><h5>Tipo: @ropaVerano.ProductosTerminados.TipoDeProductoEnVentas - @ropaVerano.ProductosTerminados.SubtipoRopa</h5></li>
+				<li><h5>Talla: @ropaVerano.ProductosTerminados.Talla</h5></li>
+			</ul>
+			@if (user.Role == RoleEnum.Empleado)
+			{
+				<a class="btn btn-info" style="margin: 2%">Editar</a>
+				<a class="btn btn-danger" style="margin: 2%">Eliminar</a>
+			}
+
+			@if (user.Role == RoleEnum.Cliente)
+			{
+				<a class="btn btn-primary" style="margin: 2%">Comprar</a>
+				<a class="btn btn-warning" style="margin: 2%">Añadir al Carrito</a>
+			}
+
+			<br />
+		</div>
+	}
+</div>

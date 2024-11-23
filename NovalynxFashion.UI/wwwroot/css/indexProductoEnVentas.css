@@ -1,0 +1,8 @@
+﻿#imagenPrimera:hover, #imagenSegunda:hover, #imagenTercera:hover, #imagenCuarta:hover, #imagenQuinta:hover, #imagenSexta:hover, #imagenSeptima:hover, #imagenOctava:hover, #imagenNovena:hover {
+    width: 70px; /* Make sure width and height are equal to form a circle */
+    height: 70px;
+    background-color: white; /* Or any background color you prefer */
+    border-radius: 50%; /* This makes the element a perfect circle */
+    box-shadow: 0 10px 20px rgba(148, 0, 211, 0.3), 0 6px 6px rgba(238, 130, 238, 0.2);
+    border: 2px solid #ddd; /* Optional border */
+}

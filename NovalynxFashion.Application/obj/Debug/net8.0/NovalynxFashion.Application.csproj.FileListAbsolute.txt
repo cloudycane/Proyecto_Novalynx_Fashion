@@ -1,0 +1,15 @@
+C:\Users\gesel\source\repos\NovalynxFashion.Application\bin\Debug\net8.0\NovalynxFashion.Application.deps.json
+C:\Users\gesel\source\repos\NovalynxFashion.Application\bin\Debug\net8.0\NovalynxFashion.Application.dll
+C:\Users\gesel\source\repos\NovalynxFashion.Application\bin\Debug\net8.0\NovalynxFashion.Application.pdb
+C:\Users\gesel\source\repos\NovalynxFashion.Application\bin\Debug\net8.0\NovalynxFashion.Core.dll
+C:\Users\gesel\source\repos\NovalynxFashion.Application\bin\Debug\net8.0\NovalynxFashion.Core.pdb
+C:\Users\gesel\source\repos\NovalynxFashion.Application\obj\Debug\net8.0\NovalynxFashion.Application.csproj.AssemblyReference.cache
+C:\Users\gesel\source\repos\NovalynxFashion.Application\obj\Debug\net8.0\NovalynxFashion.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gesel\source\repos\NovalynxFashion.Application\obj\Debug\net8.0\NovalynxFashion.Application.AssemblyInfoInputs.cache
+C:\Users\gesel\source\repos\NovalynxFashion.Application\obj\Debug\net8.0\NovalynxFashion.Application.AssemblyInfo.cs
+C:\Users\gesel\source\repos\NovalynxFashion.Application\obj\Debug\net8.0\NovalynxFashion.Application.csproj.CoreCompileInputs.cache
+C:\Users\gesel\source\repos\NovalynxFashion.Application\obj\Debug\net8.0\Novalynx.3C240997.Up2Date
+C:\Users\gesel\source\repos\NovalynxFashion.Application\obj\Debug\net8.0\NovalynxFashion.Application.dll
+C:\Users\gesel\source\repos\NovalynxFashion.Application\obj\Debug\net8.0\refint\NovalynxFashion.Application.dll
+C:\Users\gesel\source\repos\NovalynxFashion.Application\obj\Debug\net8.0\NovalynxFashion.Application.pdb
+C:\Users\gesel\source\repos\NovalynxFashion.Application\obj\Debug\net8.0\ref\NovalynxFashion.Application.dll
