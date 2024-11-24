@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6UgJSFUIeoE=",
+  "dgSpecHash": "G2SJuPp1vIM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gesel\\source\\repos\\NovalynxFashion.Application\\NovalynxFashion.Application.csproj",
+  "projectFilePath": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.Application\\NovalynxFashion.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gesel\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.11\\microsoft.aspnetcore.cryptography.internal.8.0.11.nupkg.sha512",
     "C:\\Users\\gesel\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.11\\microsoft.aspnetcore.cryptography.keyderivation.8.0.11.nupkg.sha512",

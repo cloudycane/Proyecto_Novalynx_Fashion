@@ -16,106 +16,115 @@
 <div class="container">
 	<h1 class="text-center">Productos Novalynx</h1>
 
-    <div class="container marketing">
+    <th class="container marketing">
 
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-            <div class="col-lg-2" style="margin-bottom: 2%">
-                <center>
-                    <a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorRopaCasual"><img style="margin-bottom: 2%" id="imagenPrimera" class="img-circle" src="https://i.pinimg.com/enabled_lo_mid/736x/2c/52/24/2c52249ee134700d9cf9786ff6e83990.jpg" alt="Generic placeholder image" width="35" height="35"></a>
-                </center>
-                <h5 class="text-center">Ropa Casual</h5>
-
-
-            </div>
-            <div class="col-lg-2" style="margin-bottom: 2%">
-                <center>
-                    <a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorRopaInvierno"><img id="imagenSegunda" class="img-circle" src="https://i.pinimg.com/736x/1f/dc/3c/1fdc3c7d96d86183381314986bd126e4.jpg" alt="Generic placeholder image" width="35" height="35"></a>
-
-                </center>
-                <h5 class="text-center">Ropa de Invierno</h5>
-
-            </div>
-            <div class="col-lg-2" style="margin-bottom: 2%">
-                <center>
-                    <a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorRopaOficina">
-                        <img id="imagenTercera" class="img-circle" src="https://i.pinimg.com/enabled_lo_mid/736x/4f/0f/cb/4f0fcb4beb2adde3ddb09262b4e82475.jpg" alt="Generic placeholder image" width="35" height="35">
-                    </a>
-
-                </center>
-                <h5 class="text-center">Ropa de Oficina</h5>
+        
+        <table class="table table-bordered">
+            <tr>
+                <th class="col-lg-4" style="margin-bottom: 2%">
+                    <center>
+                        <a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorRopaCasual"><img style="margin-bottom: 2%" id="imagenPrimera" class="img-circle" src="https://i.pinimg.com/enabled_lo_mid/736x/2c/52/24/2c52249ee134700d9cf9786ff6e83990.jpg" alt="Generic placeholder image" width="35" height="35"></a>
+                    </center>
+                    <h5 class="text-center">Ropa Casual</h5>
 
 
-            </div>
-            <div class="col-lg-2" style="margin-bottom: 2%">
-                <center>
-                    <a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorRopaDeportivo">
-                        <img id="imagenCuarta" class="img-circle" src="https://i.pinimg.com/736x/11/3d/e9/113de9e1c8989805e0f5beee55d389f0.jpg" width="35" height="35">
+                </th>
+                <th class="col-lg-4" style="margin-bottom: 2%">
+                    <center>
+                        <a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorRopaInvierno"><img id="imagenSegunda" class="img-circle" src="https://i.pinimg.com/736x/1f/dc/3c/1fdc3c7d96d86183381314986bd126e4.jpg" alt="Generic placeholder image" width="35" height="35"></a>
 
-                    </a>
+                    </center>
+                    <h5 class="text-center">Ropa de Invierno</h5>
 
-                </center>
-                <h5 class="text-center">Ropa Deportiva</h5>
+                </th>
+                <th class="col-lg-4" style="margin-bottom: 2%">
+                    <center>
+                        <a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorRopaOficina">
+                            <img id="imagenTercera" class="img-circle" src="https://i.pinimg.com/enabled_lo_mid/736x/4f/0f/cb/4f0fcb4beb2adde3ddb09262b4e82475.jpg" alt="Generic placeholder image" width="35" height="35">
+                        </a>
 
-
-            </div>
-            <div class="col-lg-2" style="margin-bottom: 2%">
-                <center>
-                    <a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorRopaVerano">
-                        <img id="imagenQuinta" class="img-circle" src="https://i.pinimg.com/enabled_lo_mid/736x/a0/e5/95/a0e5955d074f15cf80e433f8d188d851.jpg" width="35" height="35">
-
-                    </a>
-                </center>
-                <h5 class="text-center">Ropa de Verano</h5>
+                    </center>
+                    <h5 class="text-center">Ropa de Oficina</h5>
 
 
-            </div>
-            <div class="col-lg-2" style="margin-bottom: 2%">
-                <center>
-                    <a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorRopaFormal">
-                        <img id="imagenSexta" class="img-circle" src="https://i.pinimg.com/enabled_lo_mid/736x/50/9f/9f/509f9fa9356d8389520bcde3b1ef00ef.jpg" width="35" height="35">
+                </th>
+             
+            </tr>
+            <tr>
+                <th class="col-lg-4" style="margin-bottom: 2%">
+                    <center>
+                        <a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorRopaDeportivo">
+                            <img id="imagenCuarta" class="img-circle" src="https://i.pinimg.com/736x/11/3d/e9/113de9e1c8989805e0f5beee55d389f0.jpg" width="35" height="35">
 
-                    </a>
+                        </a>
 
-                </center>
-                <h5 class="text-center">Ropa Formal</h5>
-
-
-            </div>
-            <div class="col-lg-2" style="margin-bottom: 2%">
-                <center>
-                    <a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorRopaInterior">
-                        <img id="imagenSeptima" class="img-circle" src="https://i.pinimg.com/736x/19/d4/fd/19d4fdc0c055c2c3aba4647a47b97516.jpg" width="35" height="35">
-
-                    </a>
-
-                </center>
-                <h5 class="text-center">Ropa Interior</h5>
+                    </center>
+                    <h5 class="text-center">Ropa Deportiva</h5>
 
 
-            </div>
-            <div class="col-lg-2" style="margin-bottom: 2%">
-                <center>
-                    <a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorCalzados">
-                        <img id="imagenOctava" class="img-circle" src="https://i.pinimg.com/736x/d1/aa/04/d1aa04fdb50116e27c419cb1a5dfb53a.jpg" width="35" height="35">
+                </th>
+                <th class="col-lg-4" style="margin-bottom: 2%">
+                    <center>
+                        <a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorRopaVerano">
+                            <img id="imagenQuinta" class="img-circle" src="https://i.pinimg.com/enabled_lo_mid/736x/a0/e5/95/a0e5955d074f15cf80e433f8d188d851.jpg" width="35" height="35">
 
-                    </a>
-
-                </center>
-                <h5 class="text-center">Calzados</h5>
-
-
-            </div>
-            <div class="col-lg-2" style="margin-bottom: 2%">
-                <center>
-                    <a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorAccesorios"><img id="imagenNovena" class="img-circle" src="https://i.pinimg.com/enabled_lo_mid/736x/80/99/ce/8099ce6fd766596efbac72e862f2f136.jpg" width="35" height="35"></a>
-
-                </center>
-                <h5 class="text-center">Accesorios Complementarios</h5>
+                        </a>
+                    </center>
+                    <h5 class="text-center">Ropa de Verano</h5>
 
 
-            </div>
-        </div>
+                </th>
+                <th class="col-lg-4" style="margin-bottom: 2%">
+                    <center>
+                        <a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorRopaFormal">
+                            <img id="imagenSexta" class="img-circle" src="https://i.pinimg.com/enabled_lo_mid/736x/50/9f/9f/509f9fa9356d8389520bcde3b1ef00ef.jpg" width="35" height="35">
+
+                        </a>
+
+                    </center>
+                    <h5 class="text-center">Ropa Formal</h5>
+
+
+                </th>
+               
+            </tr>
+            <tr>
+                <th class="col-lg-4" style="margin-bottom: 2%">
+                    <center>
+                        <a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorRopaInterior">
+                            <img id="imagenSeptima" class="img-circle" src="https://i.pinimg.com/736x/19/d4/fd/19d4fdc0c055c2c3aba4647a47b97516.jpg" width="35" height="35">
+
+                        </a>
+
+                    </center>
+                    <h5 class="text-center">Ropa Interior</h5>
+
+
+                </th>
+                <th class="col-lg-4" style="margin-bottom: 2%">
+                    <center>
+                        <a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorCalzados">
+                            <img id="imagenOctava" class="img-circle" src="https://i.pinimg.com/736x/d1/aa/04/d1aa04fdb50116e27c419cb1a5dfb53a.jpg" width="35" height="35">
+
+                        </a>
+
+                    </center>
+                    <h5 class="text-center">Calzados</h5>
+
+
+                </th>
+                <th class="col-lg-4" style="margin-bottom: 2%">
+                    <center>
+                        <a asp-area="Ventas" asp-controller="ProductosEnVentas" asp-action="OrdenarPorAccesorios"><img id="imagenNovena" class="img-circle" src="https://i.pinimg.com/enabled_lo_mid/736x/80/99/ce/8099ce6fd766596efbac72e862f2f136.jpg" width="35" height="35"></a>
+
+                    </center>
+                    <h5 class="text-center">Accesorios</h5>
+
+
+                </th>
+            </tr>
+            
+        </table>
      
     </div>
 
