@@ -13,8 +13,6 @@ namespace NovalynxFashion.Core.Enums
         Mujeres = 1, 
         Unisex = 2, 
         Personalizado = 3,
-        [Display(Name = "Todas las personas")]
-        TodasLasPersonas = 4
-    
+ 
     }
 }

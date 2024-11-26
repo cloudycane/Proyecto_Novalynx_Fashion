@@ -1,4 +1,5 @@
-﻿@using NovalynxFashion.UI.ViewModels
+﻿@using NovalynxFashion.Core.Extensions
+@using NovalynxFashion.UI.ViewModels
 @model ListadoProductosEnVentaViewModel
 
 @using Microsoft.AspNetCore.Identity
@@ -8,6 +9,7 @@
 @inject IHttpContextAccessor _context;
 @{
 	var user = await userManager.GetUserAsync(_context.HttpContext.User);
+    
 }
 
 <link rel="stylesheet" href="~/css/indexProductoEnVentas.css" asp-append-version="true" />
@@ -16,7 +18,7 @@
 <div class="container">
 	<h1 class="text-center">Productos Novalynx</h1>
 
-    <th class="container marketing">
+    <div class="container marketing">
 
         
         <table class="table table-bordered">
@@ -150,8 +152,9 @@
                         <li><h5>Cantidad: @producto.ProductosTerminados.Cantidad </h5></li>
                         <li><h5>Descripción: @producto.ProductosTerminados.Descripcion</h5></li>
                         <li><h5>Para: @producto.ProductosTerminados.Sexo</h5></li>
-                        <li><h5>Edades: @producto.ProductosTerminados.PersonasEnum</h5></li>
-                        <li><h5>Tipo: @producto.ProductosTerminados.TipoDeProductoEnVentas - @producto.ProductosTerminados.SubtipoRopa</h5></li>
+                        <li><h5>Edades: @producto.ProductosTerminados.PersonasEnum.DisplayName()</h5></li>
+                        <li><h5>Tipo: <span class="label label-info">@producto.ProductosTerminados.TipoDeProductoEnVentas.DisplayName()</span> | <span class="label label-info">@producto.ProductosTerminados.SubtipoRopa.DisplayName()</span> </h5>
+
                         <li><h5>Talla: @producto.ProductosTerminados.Talla</h5></li>
                     </ul>
                     @if (user.Role == RoleEnum.Empleado)

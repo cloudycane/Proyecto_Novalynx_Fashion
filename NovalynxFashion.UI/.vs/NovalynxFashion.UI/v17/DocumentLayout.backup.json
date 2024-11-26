@@ -3,31 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B116E9E9-7863-405B-9626-080CE48A53D4}|NovalynxFashion.UI.csproj|c:\\users\\gesel\\source\\repos\\mantenimientoweb.proyecto\\proyecto_novalynx_fashion\\novalynxfashion.ui\\areas\\ventas\\views\\productosenventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B116E9E9-7863-405B-9626-080CE48A53D4}|NovalynxFashion.UI.csproj|solutionrelative:areas\\ventas\\views\\productosenventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B116E9E9-7863-405B-9626-080CE48A53D4}|NovalynxFashion.UI.csproj|c:\\users\\gesel\\source\\repos\\mantenimientoweb.proyecto\\proyecto_novalynx_fashion\\novalynxfashion.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B116E9E9-7863-405B-9626-080CE48A53D4}|NovalynxFashion.UI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B116E9E9-7863-405B-9626-080CE48A53D4}|NovalynxFashion.UI.csproj|c:\\users\\gesel\\source\\repos\\mantenimientoweb.proyecto\\proyecto_novalynx_fashion\\novalynxfashion.ui\\areas\\registro\\views\\cuenta\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B116E9E9-7863-405B-9626-080CE48A53D4}|NovalynxFashion.UI.csproj|solutionrelative:areas\\registro\\views\\cuenta\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B116E9E9-7863-405B-9626-080CE48A53D4}|NovalynxFashion.UI.csproj|c:\\users\\gesel\\source\\repos\\mantenimientoweb.proyecto\\proyecto_novalynx_fashion\\novalynxfashion.ui\\areas\\registro\\views\\cuenta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B116E9E9-7863-405B-9626-080CE48A53D4}|NovalynxFashion.UI.csproj|solutionrelative:areas\\registro\\views\\cuenta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B116E9E9-7863-405B-9626-080CE48A53D4}|NovalynxFashion.UI.csproj|c:\\users\\gesel\\source\\repos\\mantenimientoweb.proyecto\\proyecto_novalynx_fashion\\novalynxfashion.ui\\areas\\inventario\\views\\general\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B116E9E9-7863-405B-9626-080CE48A53D4}|NovalynxFashion.UI.csproj|solutionrelative:areas\\inventario\\views\\general\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B116E9E9-7863-405B-9626-080CE48A53D4}|NovalynxFashion.UI.csproj|c:\\users\\gesel\\source\\repos\\mantenimientoweb.proyecto\\proyecto_novalynx_fashion\\novalynxfashion.ui\\areas\\registro\\controllers\\cuentacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B116E9E9-7863-405B-9626-080CE48A53D4}|NovalynxFashion.UI.csproj|solutionrelative:areas\\registro\\controllers\\cuentacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_NovalynxFashion.UI_1a077c89_69db_4853_afce_fbec6cb88b49/True/SqlTable/dbo.OrdenesEnCarrito.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{1508554B-5D72-4BE3-8D3A-9F6C198AA8F0}|..\\NovalynxFashio.Core\\NovalynxFashion.Core.csproj|c:\\users\\gesel\\source\\repos\\mantenimientoweb.proyecto\\proyecto_novalynx_fashion\\novalynxfashio.core\\enums\\generoenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,86 +22,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\Areas\\Ventas\\Views\\ProductosEnVentas\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Ventas\\Views\\ProductosEnVentas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\Areas\\Ventas\\Views\\ProductosEnVentas\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Ventas\\Views\\ProductosEnVentas\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T19:40:59.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-24T19:33:23.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Perfil.cshtml",
-              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\Areas\\Registro\\Views\\Cuenta\\Perfil.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Registro\\Views\\Cuenta\\Perfil.cshtml",
-              "ToolTip": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\Areas\\Registro\\Views\\Cuenta\\Perfil.cshtml",
-              "RelativeToolTip": "Areas\\Registro\\Views\\Cuenta\\Perfil.cshtml",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T10:35:13.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CuentaController.cs",
-              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\Areas\\Registro\\Controllers\\CuentaController.cs",
-              "RelativeDocumentMoniker": "Areas\\Registro\\Controllers\\CuentaController.cs",
-              "ToolTip": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\Areas\\Registro\\Controllers\\CuentaController.cs",
-              "RelativeToolTip": "Areas\\Registro\\Controllers\\CuentaController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAUwCYAAAAMAAAAAAAAAA==",
+              "Title": "GeneroEnum.cs",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashio.Core\\Enums\\GeneroEnum.cs",
+              "RelativeDocumentMoniker": "..\\NovalynxFashio.Core\\Enums\\GeneroEnum.cs",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashio.Core\\Enums\\GeneroEnum.cs",
+              "RelativeToolTip": "..\\NovalynxFashio.Core\\Enums\\GeneroEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:14:08.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\Areas\\Registro\\Views\\Cuenta\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Registro\\Views\\Cuenta\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\Areas\\Registro\\Views\\Cuenta\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Registro\\Views\\Cuenta\\Index.cshtml",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAcwJIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T09:56:14.08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "dbo.OrdenesEnCarrito.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_NovalynxFashion.UI_1a077c89_69db_4853_afce_fbec6cb88b49/True/SqlTable/dbo.OrdenesEnCarrito.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_NovalynxFashion.UI_1a077c89_69db_4853_afce_fbec6cb88b49/True/SqlTable/dbo.OrdenesEnCarrito.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-11-22T22:17:39.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\Areas\\Inventario\\Views\\General\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Inventario\\Views\\General\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\Areas\\Inventario\\Views\\General\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Inventario\\Views\\General\\Index.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAcwAkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T22:13:03.065Z"
+              "WhenOpened": "2024-11-26T00:38:55.939Z",
+              "EditorCaption": ""
             }
           ]
         }
