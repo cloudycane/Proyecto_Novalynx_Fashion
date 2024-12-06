@@ -6,5 +6,6 @@ El objetivo de este proyecto de conocimiento es crear un Software as a Service (
 Este proyecto experimenta cambios por lo que las siguientes herramientas, tecnologías y prácticas son aplicadas: 
 <ul>
  <li>Utilidad de metodologías y enfoques ágiles.</li>
- <li>Estructuración de la arquitectura de la aplicación por capas</li>
+ <li>Estructuración de la arquitectura de la aplicación por capas (N-Layer) o cebolla (Onion Architecture)</li>
+
 </ul>
