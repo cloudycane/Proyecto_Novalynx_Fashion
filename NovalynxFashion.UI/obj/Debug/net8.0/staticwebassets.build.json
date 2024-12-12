@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tzaPk8095TvO3/P0J1DZb71zSrC8AVQNl0WPFsie8A0=",
+  "Hash": "AGggQKqmc7Wldhj3KeIYTCNhNMKyJRgZJnTljHqJMDM=",
   "Source": "NovalynxFashion.UI",
   "BasePath": "_content/NovalynxFashion.UI",
   "Mode": "Default",
@@ -1252,6 +1252,25 @@
       "OriginalItemSpec": "wwwroot\\css\\indexProductoEnVentas.css"
     },
     {
+      "Identity": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\wwwroot\\css\\registrar.css",
+      "SourceId": "NovalynxFashion.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\wwwroot\\",
+      "BasePath": "_content/NovalynxFashion.UI",
+      "RelativePath": "css/registrar.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\registrar.css"
+    },
+    {
       "Identity": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\wwwroot\\css\\site.css",
       "SourceId": "NovalynxFashion.UI",
       "SourceType": "Discovered",
@@ -1421,6 +1440,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\imagen_productoSuministrador\\741f8770-70b1-4bfc-908d-73eeee102ae1_IMG_20241112_003720_995.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\wwwroot\\img\\imagen_productoSuministrador\\a8ddb8c8-1c0d-4f3e-a9d3-3b8027d33481_user.jpg",
+      "SourceId": "NovalynxFashion.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\wwwroot\\",
+      "BasePath": "_content/NovalynxFashion.UI",
+      "RelativePath": "img/imagen_productoSuministrador/a8ddb8c8-1c0d-4f3e-a9d3-3b8027d33481_user.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\imagen_productoSuministrador\\a8ddb8c8-1c0d-4f3e-a9d3-3b8027d33481_user.jpg"
     },
     {
       "Identity": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\wwwroot\\img\\imagen_productoSuministrador\\bccd3541-a524-4ee0-9b58-1a085a7b600d_IMG_20241112_003720_995.jpg",

@@ -15,6 +15,7 @@ namespace NovalynxFashion.Core.Entidades
         public ProductoSuministradorModel ProductoSuministrador { get; set; }
         public AprobacionEnum Aprobacion { get; set; }
         public int Cantidad { get; set; }
+        public DateTime FechaDeOrden {  get; set; }
 
     }
 }

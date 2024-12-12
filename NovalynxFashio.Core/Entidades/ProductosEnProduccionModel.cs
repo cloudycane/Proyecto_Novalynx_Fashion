@@ -22,7 +22,6 @@ namespace NovalynxFashion.Core.Entidades
         public EstadoProductoEnProduccionEnum EstadoProducto { get; set; }
         public decimal Coste {  get; set; }
         public int Cantidad { get; set; }
-
         public TipoDeProductoEnVentasEnum TipoDeProductoEnVentas { get; set; }
         public GeneroEnum Sexo { get; set; }
         public TallaEnum Talla { get; set; }
@@ -31,5 +30,6 @@ namespace NovalynxFashion.Core.Entidades
         public SubtipoRopaEnum SubtipoRopa {  get; set; }
         public MonedaPreferenciaEnum? MonedaPreferida { get; set; }
         public string ImagePath { get; set; }
+        public DateTime FechaDeProduccion { get; set; }
     }
 }

@@ -25,7 +25,6 @@ namespace NovalynxFashion.Core.Entidades
         [Required(ErrorMessage = "El campo {0} es requerido.")]
         [Display(Name = "Dirección")]
         public string Direccion {  get; set; }
-
         public string RutaLogoImg { get; set; }
     }
 }

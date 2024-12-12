@@ -27,7 +27,7 @@ namespace AgriTechERP.Web.Areas.Adquisicion.Controllers
         {
             var user = await _userManager.GetUserAsync(User);
 
-            if (user == null || user.Role == RoleEnum.Cliente || user.Role == RoleEnum.Ventas || user.Role == RoleEnum.RecursoHumano ||  user.Role == RoleEnum.Marketing)
+            if (user == null || user.Role == RoleEnum.Cliente || user.Role == RoleEnum.Ventas || user.Role == RoleEnum.RecursoHumano)
             {
                 return Forbid();
             }

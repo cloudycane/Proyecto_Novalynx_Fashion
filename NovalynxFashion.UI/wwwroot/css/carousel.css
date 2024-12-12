@@ -11,7 +11,6 @@ body {
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
     position: absolute;
     top: 0;
@@ -144,4 +143,19 @@ body {
     border-radius: 50%; /* This makes the element a perfect circle */
     box-shadow: 0 10px 20px rgba(148, 0, 211, 0.3), 0 6px 6px rgba(238, 130, 238, 0.2);
     border: 2px solid #ddd; /* Optional border */
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 4s forwards;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0.6;
+    }
+
+    to {
+        opacity: 1;
+    }
 }

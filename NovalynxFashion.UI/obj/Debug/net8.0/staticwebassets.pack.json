@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\indexProductoEnVentas.css"
     },
     {
+      "Id": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\wwwroot\\css\\registrar.css",
+      "PackagePath": "staticwebassets\\css\\registrar.css"
+    },
+    {
       "Id": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -51,6 +55,10 @@
     {
       "Id": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\wwwroot\\img\\imagen_productoSuministrador\\741f8770-70b1-4bfc-908d-73eeee102ae1_IMG_20241112_003720_995.jpg",
       "PackagePath": "staticwebassets\\img\\imagen_productoSuministrador\\741f8770-70b1-4bfc-908d-73eeee102ae1_IMG_20241112_003720_995.jpg"
+    },
+    {
+      "Id": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\wwwroot\\img\\imagen_productoSuministrador\\a8ddb8c8-1c0d-4f3e-a9d3-3b8027d33481_user.jpg",
+      "PackagePath": "staticwebassets\\img\\imagen_productoSuministrador\\a8ddb8c8-1c0d-4f3e-a9d3-3b8027d33481_user.jpg"
     },
     {
       "Id": "C:\\Users\\gesel\\source\\repos\\MantenimientoWeb.Proyecto\\Proyecto_Novalynx_Fashion\\NovalynxFashion.UI\\wwwroot\\img\\imagen_productoSuministrador\\bccd3541-a524-4ee0-9b58-1a085a7b600d_IMG_20241112_003720_995.jpg",

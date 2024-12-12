@@ -41,5 +41,6 @@ namespace NovalynxFashion.Core.Entidades
         public SuministradorModel Suministrador { get; set; }
         public List<ProductosEnProduccionModel> ProductosEnVentas { get; set; } = new List<ProductosEnProduccionModel>();   
         public string ImagePath { get; set; }
+        public DateTime FechaDeCreacion { get; set; }
     }
 }

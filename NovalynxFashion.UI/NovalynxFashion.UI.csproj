@@ -8,6 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\Admin\**" />
+    <Compile Remove="Areas\Marketing\**" />
+    <Compile Remove="wwwroot\img\img_suministrador\**" />
+    <Content Remove="Areas\Admin\**" />
+    <Content Remove="Areas\Marketing\**" />
+    <Content Remove="wwwroot\img\img_suministrador\**" />
+    <EmbeddedResource Remove="Areas\Admin\**" />
+    <EmbeddedResource Remove="Areas\Marketing\**" />
+    <EmbeddedResource Remove="wwwroot\img\img_suministrador\**" />
+    <None Remove="Areas\Admin\**" />
+    <None Remove="Areas\Marketing\**" />
+    <None Remove="wwwroot\img\img_suministrador\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.11" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.11" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.11" />
@@ -24,9 +39,6 @@
 
   <ItemGroup>
     <Folder Include="Areas\Contabilidad\" />
-    <Folder Include="Areas\Marketing\" />
-    <Folder Include="Areas\Admin\" />
-    <Folder Include="wwwroot\img\img_suministrador\" />
     <Folder Include="wwwroot\img\" />
   </ItemGroup>
 

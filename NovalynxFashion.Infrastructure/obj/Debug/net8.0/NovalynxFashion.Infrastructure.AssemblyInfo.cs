@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NovalynxFashion.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+181ad946ff2a9ef0650fc4143d69a8ede382a635")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15a27f2d870b206e5ebf0af67f9a65512e490d09")]
 [assembly: System.Reflection.AssemblyProductAttribute("NovalynxFashion.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NovalynxFashion.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

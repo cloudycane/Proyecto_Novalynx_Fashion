@@ -99,7 +99,7 @@
 
                 <table class="table table-borderless">
                     <tr>
-                        @if(user.Role == RoleEnum.Empleado || user.Role == RoleEnum.Ventas || user.Role == RoleEnum.Marketing || user.Role == RoleEnum.RecursoHumano || user.Role == RoleEnum.Financiero || user.Role == RoleEnum.Suministrador){
+                        @if(user.Role == RoleEnum.Empleado || user.Role == RoleEnum.Ventas || user.Role == RoleEnum.RecursoHumano || user.Role == RoleEnum.Financiero || user.Role == RoleEnum.Suministrador){
                             <th class="text-center">
                                 <h5>Portal Suministrador</h5>
                                 <h1><a asp-area="Adquisicion" asp-controller="PortalSuministrador" asp-action="Index"><i class="bi bi-person-raised-hand text-center"></i></a></h1>
@@ -187,14 +187,6 @@
                             
                         }
                         
-                    
-
-                    <!-- MARKETING Y PUBLICIDAD -->
-
-                    @if(user.Role == RoleEnum.Marketing)
-                    {
-
-                    }
                     
                     <!-- FINANZA Y CONTABILIDAD -->   
 

@@ -28,7 +28,7 @@ namespace NovalynxFashion.UI.Areas.Adquisicion.Controllers
         {
             var user = await _userManager.GetUserAsync(User);
 
-            if (user == null || user.Role == RoleEnum.Cliente || user.Role == RoleEnum.RecursoHumano || user.Role == RoleEnum.Marketing)
+            if (user == null || user.Role == RoleEnum.Cliente || user.Role == RoleEnum.RecursoHumano)
             {
                 return Forbid();
             }
