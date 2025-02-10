@@ -1,0 +1,12 @@
+C:\Users\gesel\source\repos\ProyectoERP.WebAPI\ProyectoERP.Dominio\bin\Debug\net8.0\ProyectoERP.Dominio.deps.json
+C:\Users\gesel\source\repos\ProyectoERP.WebAPI\ProyectoERP.Dominio\bin\Debug\net8.0\ProyectoERP.Dominio.dll
+C:\Users\gesel\source\repos\ProyectoERP.WebAPI\ProyectoERP.Dominio\bin\Debug\net8.0\ProyectoERP.Dominio.pdb
+C:\Users\gesel\source\repos\ProyectoERP.WebAPI\ProyectoERP.Dominio\obj\Debug\net8.0\ProyectoERP.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gesel\source\repos\ProyectoERP.WebAPI\ProyectoERP.Dominio\obj\Debug\net8.0\ProyectoERP.Dominio.AssemblyInfoInputs.cache
+C:\Users\gesel\source\repos\ProyectoERP.WebAPI\ProyectoERP.Dominio\obj\Debug\net8.0\ProyectoERP.Dominio.AssemblyInfo.cs
+C:\Users\gesel\source\repos\ProyectoERP.WebAPI\ProyectoERP.Dominio\obj\Debug\net8.0\ProyectoERP.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\gesel\source\repos\ProyectoERP.WebAPI\ProyectoERP.Dominio\obj\Debug\net8.0\ProyectoERP.Dominio.sourcelink.json
+C:\Users\gesel\source\repos\ProyectoERP.WebAPI\ProyectoERP.Dominio\obj\Debug\net8.0\ProyectoERP.Dominio.dll
+C:\Users\gesel\source\repos\ProyectoERP.WebAPI\ProyectoERP.Dominio\obj\Debug\net8.0\refint\ProyectoERP.Dominio.dll
+C:\Users\gesel\source\repos\ProyectoERP.WebAPI\ProyectoERP.Dominio\obj\Debug\net8.0\ProyectoERP.Dominio.pdb
+C:\Users\gesel\source\repos\ProyectoERP.WebAPI\ProyectoERP.Dominio\obj\Debug\net8.0\ref\ProyectoERP.Dominio.dll

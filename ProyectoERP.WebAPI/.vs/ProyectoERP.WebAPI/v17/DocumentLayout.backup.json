@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gesel\\source\\repos\\ProyectoERP.WebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77513C43-FC52-40DC-A501-11900237AAC8}|ProyectoERP.WebAPI\\ProyectoERP.WebAPI.csproj|c:\\users\\gesel\\source\\repos\\proyectoerp.webapi\\proyectoerp.webapi\\clientapp\\proyectoerp\\src\\components\\cuenta\\cuenta.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{77513C43-FC52-40DC-A501-11900237AAC8}|ProyectoERP.WebAPI\\ProyectoERP.WebAPI.csproj|solutionrelative:proyectoerp.webapi\\clientapp\\proyectoerp\\src\\components\\cuenta\\cuenta.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77513C43-FC52-40DC-A501-11900237AAC8}|ProyectoERP.WebAPI\\ProyectoERP.WebAPI.csproj|c:\\users\\gesel\\source\\repos\\proyectoerp.webapi\\proyectoerp.webapi\\clientapp\\proyectoerp\\src\\components\\categoria-ingreso\\categoria-ingreso.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{77513C43-FC52-40DC-A501-11900237AAC8}|ProyectoERP.WebAPI\\ProyectoERP.WebAPI.csproj|solutionrelative:proyectoerp.webapi\\clientapp\\proyectoerp\\src\\components\\categoria-ingreso\\categoria-ingreso.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77513C43-FC52-40DC-A501-11900237AAC8}|ProyectoERP.WebAPI\\ProyectoERP.WebAPI.csproj|c:\\users\\gesel\\source\\repos\\proyectoerp.webapi\\proyectoerp.webapi\\clientapp\\proyectoerp\\src\\components\\categoria-gasto\\crear-categoria-gasto\\crear-categoria-gasto.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{77513C43-FC52-40DC-A501-11900237AAC8}|ProyectoERP.WebAPI\\ProyectoERP.WebAPI.csproj|solutionrelative:proyectoerp.webapi\\clientapp\\proyectoerp\\src\\components\\categoria-gasto\\crear-categoria-gasto\\crear-categoria-gasto.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77513C43-FC52-40DC-A501-11900237AAC8}|ProyectoERP.WebAPI\\ProyectoERP.WebAPI.csproj|c:\\users\\gesel\\source\\repos\\proyectoerp.webapi\\proyectoerp.webapi\\clientapp\\proyectoerp\\src\\components\\cuenta\\crear-cuenta\\crear-cuenta.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{77513C43-FC52-40DC-A501-11900237AAC8}|ProyectoERP.WebAPI\\ProyectoERP.WebAPI.csproj|solutionrelative:proyectoerp.webapi\\clientapp\\proyectoerp\\src\\components\\cuenta\\crear-cuenta\\crear-cuenta.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77513C43-FC52-40DC-A501-11900237AAC8}|ProyectoERP.WebAPI\\ProyectoERP.WebAPI.csproj|c:\\users\\gesel\\source\\repos\\proyectoerp.webapi\\proyectoerp.webapi\\clientapp\\proyectoerp\\src\\components\\cuenta\\crear-cuenta\\crear-cuenta.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77513C43-FC52-40DC-A501-11900237AAC8}|ProyectoERP.WebAPI\\ProyectoERP.WebAPI.csproj|solutionrelative:proyectoerp.webapi\\clientapp\\proyectoerp\\src\\components\\cuenta\\crear-cuenta\\crear-cuenta.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77513C43-FC52-40DC-A501-11900237AAC8}|ProyectoERP.WebAPI\\ProyectoERP.WebAPI.csproj|c:\\users\\gesel\\source\\repos\\proyectoerp.webapi\\proyectoerp.webapi\\clientapp\\proyectoerp\\src\\components\\cuenta\\cuenta.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{77513C43-FC52-40DC-A501-11900237AAC8}|ProyectoERP.WebAPI\\ProyectoERP.WebAPI.csproj|solutionrelative:proyectoerp.webapi\\clientapp\\proyectoerp\\src\\components\\cuenta\\cuenta.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77513C43-FC52-40DC-A501-11900237AAC8}|ProyectoERP.WebAPI\\ProyectoERP.WebAPI.csproj|c:\\users\\gesel\\source\\repos\\proyectoerp.webapi\\proyectoerp.webapi\\clientapp\\proyectoerp\\src\\components\\cuenta\\cuenta.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{77513C43-FC52-40DC-A501-11900237AAC8}|ProyectoERP.WebAPI\\ProyectoERP.WebAPI.csproj|solutionrelative:proyectoerp.webapi\\clientapp\\proyectoerp\\src\\components\\cuenta\\cuenta.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "crear-categoria-gasto.component.ts",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ProyectoERP.WebAPI\\ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\categoria-gasto\\crear-categoria-gasto\\crear-categoria-gasto.component.ts",
+              "RelativeDocumentMoniker": "ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\categoria-gasto\\crear-categoria-gasto\\crear-categoria-gasto.component.ts",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ProyectoERP.WebAPI\\ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\categoria-gasto\\crear-categoria-gasto\\crear-categoria-gasto.component.ts",
+              "RelativeToolTip": "ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\categoria-gasto\\crear-categoria-gasto\\crear-categoria-gasto.component.ts",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-09T22:50:53.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "categoria-ingreso.service.ts",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ProyectoERP.WebAPI\\ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\categoria-ingreso\\categoria-ingreso.service.ts",
+              "RelativeDocumentMoniker": "ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\categoria-ingreso\\categoria-ingreso.service.ts",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ProyectoERP.WebAPI\\ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\categoria-ingreso\\categoria-ingreso.service.ts",
+              "RelativeToolTip": "ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\categoria-ingreso\\categoria-ingreso.service.ts",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAwwBIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-09T22:32:10.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cuenta.component.ts",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ProyectoERP.WebAPI\\ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\cuenta.component.ts",
+              "RelativeDocumentMoniker": "ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\cuenta.component.ts",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ProyectoERP.WebAPI\\ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\cuenta.component.ts",
+              "RelativeToolTip": "ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\cuenta.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-09T20:48:02.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "crear-cuenta.component.ts",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ProyectoERP.WebAPI\\ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\crear-cuenta\\crear-cuenta.component.ts",
+              "RelativeDocumentMoniker": "ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\crear-cuenta\\crear-cuenta.component.ts",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ProyectoERP.WebAPI\\ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\crear-cuenta\\crear-cuenta.component.ts",
+              "RelativeToolTip": "ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\crear-cuenta\\crear-cuenta.component.ts",
+              "ViewState": "AgIAACgAAAAAAAAAAAD4vzYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-09T20:41:43.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "cuenta.service.ts",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ProyectoERP.WebAPI\\ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\cuenta.service.ts",
+              "RelativeDocumentMoniker": "ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\cuenta.service.ts",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ProyectoERP.WebAPI\\ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\cuenta.service.ts",
+              "RelativeToolTip": "ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\cuenta.service.ts",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAMwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-09T20:41:08.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "crear-cuenta.component.html",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ProyectoERP.WebAPI\\ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\crear-cuenta\\crear-cuenta.component.html",
+              "RelativeDocumentMoniker": "ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\crear-cuenta\\crear-cuenta.component.html",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ProyectoERP.WebAPI\\ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\crear-cuenta\\crear-cuenta.component.html",
+              "RelativeToolTip": "ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\crear-cuenta\\crear-cuenta.component.html",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-09T20:35:44.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "cuenta.ts",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ProyectoERP.WebAPI\\ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\cuenta.ts",
+              "RelativeDocumentMoniker": "ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\cuenta.ts",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ProyectoERP.WebAPI\\ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\cuenta.ts",
+              "RelativeToolTip": "ProyectoERP.WebAPI\\ClientApp\\ProyectoERP\\src\\components\\cuenta\\cuenta.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-09T20:41:35.651Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

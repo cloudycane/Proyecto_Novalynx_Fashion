@@ -1,0 +1,107 @@
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(-100%);
+    opacity: 1;
+  }
+}
+
+.overviewIngreso {
+  animation: slideInFromLeft 0.5s ease-out;
+}
+
+.overviewGasto {
+  animation: slideInFromLeft 1 ease-out;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+button, i{
+  font-size: 14px;
+}
+
+.optionTiempo{
+    float: right;
+}
+
+table{
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+}
+.title{
+    font-size: 20px;
+}
+mat-card{
+    height: 100%;
+}
+.menu{
+    float: right;
+}
+
+.balanceTotal{
+    border-width: 1px;
+    border-style: solid;
+    border-color: deepskyblue;
+    border-radius: 18px;
+ 
+}
+
+.resumenes{
+    margin-top: 0.5%;
+}
+
+.añadirCuentaBtn{
+    margin: 1%;
+}
+
+.graph{
+    margin: 2%;
+}
+
+.cardDiv{
+    margin-bottom: 2%;
+}
+
+mat-paginator{
+    margin-top: 2%;
+}
+
+.cardDivGastos {
+  border-width: 1px;
+  border-style: solid;
+  border-color: deepskyblue;
+  border-radius: 18px;
+}
+
+mat-paginator {
+  margin-bottom: 3%;
+}
+
