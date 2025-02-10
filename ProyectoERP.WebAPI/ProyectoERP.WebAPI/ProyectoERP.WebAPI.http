@@ -1,6 +1,0 @@
-@ProyectoERP.WebAPI_HostAddress = http://localhost:5276
-
-GET {{ProyectoERP.WebAPI_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
